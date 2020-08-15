@@ -1,0 +1,112 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header{
+  height:35px;
+  width:100%;
+  background-color:#5f5d60;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.profile{
+  font-size:25px;
+  color:white;
+}
+
+
+.top-wrapper{
+  padding:110px 0;
+  text-align:center;
+  background-image:url(niseco.jpg);
+  background-size:cover;
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.top-wrapper h1{
+  text-shadow:5px 5px #000000;
+  font-size:80px;
+  letter-spacing: 5px;
+  color:#FFDDFF;
+}
+.top-wrapper h2{
+  text-shadow:3px 3px #000000;
+  color:#FFDDFF;
+}
+
+
+.intro-wrapper {
+  text-align:center;
+  margin:0 auto;
+  padding:80px 70px;
+  color:#555555;
+  font-size:25px;
+  letter-spacing:3px;
+  text-shadow:1px 0px #008080;
+}
+.intro-wrapper span{
+  color:#FF5192;
+  text-shadow:0px 0px #008080;
+  font-weight: bold;
+}
+.intro-wrapper li{
+  padding:15px
+}
+.intro-wrapper p{
+  letter-spacing:5px;
+  font-size:20px;
+  padding:15px;
+}
+.word span{
+  color:#FF5192;
+  font-weight: bold;
+}
+.fa{
+  display:inline-block;
+  margin-right:20px;
+  padding:3px;
+  background-color: white;
+  border-radius:10px
+}
+
+
+.footer{
+  text-align:right;
+  padding:30px
+}
+.ac{
+  color:#FF5192;
+  font-weight: bold;
+  padding:15px 40px;
+  background-color:rgba(128,255,200,0.8);
+  cursor:pointer;
+  box-shadow:0 7px #1A7940;
+  transition:all 0.5s;
+}
+.ac:hover{
+  background-color:rgba(128,255,200,1);
+}
+.ac:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
